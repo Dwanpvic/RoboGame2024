@@ -8,7 +8,7 @@
 - **Astar Pathfinding**: Implements algorithms to find optimal paths for the agent within a defined environment.
 - **Camera Integration**: Uses multiple cameras (front, back, left, right) for environmental perception ,self-localization and target detection.
 - **Serial Communication**: Communicates with external devices (e.g., an STM microcontroller) for control commands and data exchange.
--**Multithreading**: Manages multiple tasks simultaneously using Python’s threading module to ensure real-time operations ,and thread_locking to prevent data corruption.
+- **Multithreading**: Manages multiple tasks simultaneously using Python’s threading module to ensure real-time operations ,and thread_locking to prevent data corruption.
 
 ## Structure
 - **policy.py**: Main script that initializes the environment and starts various threads for handling different components of the robot’s operations.(check the Mindmap.png file for more details)
